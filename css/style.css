@@ -1,0 +1,538 @@
+/* ==================================common css starts here================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul,
+li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+p,h3,h2,h1,h4,h5,h6{
+    padding: 0;
+    margin: 0;
+}
+.my_button{
+    padding: 0;
+    background: transparent;
+    border: none;
+}
+.active_item{
+    color: #1FAAE2;
+}
+.clear{
+    clear: both;
+    content: ' ';
+}
+.tooltip-inner {
+    max-width: 300px;
+    padding: 20px 25px;
+    color: #6d6e71;
+    font-weight: 300;
+    font-size: 16px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: .25rem;
+    border: 1px solid #6D6E71;
+    border-radius: 5px;
+}
+/*===============================section header start===============================*/
+.header{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 90px;
+}
+ .header_picture{
+    margin-right: 33px;
+}
+.header_info{
+    margin-left: 33px;
+}
+.header_info h1{
+    color: #6d6e71;
+    font-size: 44px;
+    font-weight: 700;
+
+}
+.header_info h6{
+    font-weight: 300;
+    font-size: 17px;
+}
+/*===============================section header ends===============================*/
+
+
+/*==============================section content start================================*/
+.content{
+    display: flex;
+}
+.content .content_info{
+    padding-left: 30px;
+}
+.content .content_info h3{
+    font-size: 25px;
+    font-weight: 700;
+    color: #6d6e71;
+    padding-bottom: 20px;
+}
+.content .content_info p{
+    font-size: 16px;
+    font-weight: 300;
+    color: #6d6e71;
+    text-align: justify;
+}
+/*======================================section contents ends ===================================*/
+
+/* ==================================common css ends here================== */
+
+
+/* ============================header_top section starts here========================= */
+
+#header_top {
+
+    background: #ECEEF4;
+}
+
+#header_top .header_top_left ul {
+    float: left;
+
+}
+
+#header_top .header_top_left ul li {
+    float: left;
+    margin: 15px 2.5px;
+    padding: 7px 17px;
+    background: #ffffff;
+    border-radius: 5px;
+}
+
+#header_top .header_top_left ul li a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    color: #6d6e71;
+    font-size: 12px;
+}
+
+#header_top .header_top_left ul li a i {
+    padding-right: 22px;
+    color: #6d6e71;
+    font-size: 13.13px;
+}
+
+#header_top .social_icon ul {
+    float: right;
+}
+
+#header_top .social_icon ul li {
+    float: left;
+    padding: 21px 20px;
+    border: 1px solid #DEE0E6;
+    display: block;
+}
+
+#header_top .social_icon ul li a {}
+
+#header_top .social_icon ul li a i {
+    font-size: 13.13px;
+}
+/* ============================header_top section ends here========================= */
+
+/*============================brand section starts here=========================*/
+#brand_section{
+    background: #ffffff;
+    border-bottom: 3px solid #ECEEF4;
+    display: block;
+}
+#brand_section .brand{
+    padding: 62px 0;
+}
+#brand_section .contact_info ul{
+    float: right;
+}
+#brand_section .contact_info ul li{
+    float: left;
+    margin: 62px 0;
+}
+#brand_section .contact_info ul li i{
+    font-size: 33px;
+    padding: 0 11px;
+    position: relative;
+    color: #87888A;
+}
+#brand_section .contact_info ul li:last-child{
+    padding-right: 22px;
+}
+#brand_section .contact_info ul li:hover i{
+    color: #1FAAE2;
+}
+#brand_section .contact_info ul li i .devide{
+    position: absolute;
+    top: 5px;
+    right: 0;
+    width: 1px;
+    height: 25px;
+    background: #BCBEC3;
+}
+
+/*============================brand section ends here=========================*/
+
+/*============================main_menu section starts here=========================*/
+nav{
+    display: block;
+}
+nav ul li{
+    padding: 35px 0px;
+}
+nav ul li:hover a,
+nav ul li a{
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 37px 6px;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    color: #6d6e71;
+    text-decoration: none;
+    border-right: 3px solid #ECEEF4;
+    position: relative;
+}
+nav ul li a .arrow_up{
+    position: absolute;
+    bottom: -5.5%;
+    left: 50%;
+    transform: translate(-50%);
+    visibility: hidden;
+}
+nav ul li:hover a{
+    color: #1FAAE2;
+}
+nav ul li a:hover .arrow_up{
+    visibility: visible;
+}
+nav .active_item .active_arrow_up{
+    position: absolute;
+    bottom: -6%;
+    left: 50%;
+    transform: translate(-70%);
+}
+nav form .menu_search{
+    border: none;
+    border-color: transparent;
+    outline: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    padding: 0;
+    font-size: 15px;
+}
+nav form button i{
+    margin-right: 15px;
+    color: #6D6E71;
+}
+/*============================main_menu section ends here=========================*/
+
+/*============================about section starts here=========================*/
+#about{
+    padding-top: 35px;
+    padding-bottom: 89px;
+}
+#about .about_box{
+    display: flex;
+}
+#about .about_box img{
+    width: 100%;
+    height: 40%;
+}
+#about .about_box .about_info{
+    padding-left: 36px;
+}
+#about .about_box .about_info h3{
+    padding-top: 19px;
+    padding-bottom: 30px;
+    color: #6d6e71;
+    font-size: 26px;
+    font-weight: 700;
+}
+#about .about_info p{
+    text-align: justify;
+    font-weight: 300;
+    font-size: 16px;
+}
+/*============================about section ends here=========================*/
+
+/*============================our_work section starts here=========================*/
+#our_work .section_divider{
+  padding-bottom: 70px;
+}
+
+#our_work .header_info h1{
+    padding-bottom: 17px;
+}
+
+#our_work .content{
+    padding-bottom: 100px;
+}
+/*============================our_work section ends here=========================*/
+
+/*=======================================our_project section starts here==================================*/
+#our_projects{
+    margin-top: 10px;
+    background: url("../images/background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 55px;
+}
+#our_projects .header_info h1{
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+#our_projects .header_info h6{
+    line-height: 23px;
+}
+
+#our_projects .option_button{
+    display: flex;
+    justify-content: center;
+}
+#our_projects .option_button .my_button_group{
+    line-height: 16px;
+    padding-bottom: 50px;
+}
+#our_projects .option_button .filter_button{
+    padding: 15px 50px;
+    border: 2px solid #CECECE;
+    border-radius: 5px;
+    margin-right: 13px;
+    color: #bbbbbb;
+    font-size: 15px;
+    font-weight: 700;
+}
+#our_projects .option_button .filter_button:hover{
+    background: #ffffff;
+    color: #6d6e71;
+    border: transparent;
+}
+#our_projects .grid{
+    padding-bottom: 85px;
+}
+#our_projects .grid .element-item .my_card{
+    background: #ffffff;
+    padding: 0 13px;
+    padding-top: 17px;
+    border: 0px;
+}
+#our_projects .grid .element-item{
+margin-bottom: 18px;
+}
+#our_projects .grid .element-item .my_card .card-body{
+    display: flex;
+}
+#our_projects .grid .element-item .my_card .card-body .card_body_right,
+#our_projects .grid .element-item .my_card .card-body .card_body_left{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    border-right: .5px solid #F5F5F5;
+}
+#our_projects .grid .element-item .my_card .card-body .card_body_right{
+    border-left: .5px solid #F5F5F5;
+    border-right: 0px;
+}
+#our_projects .grid .element-item .my_card .card-body .card_body_right i,
+#our_projects .grid .element-item .my_card .card-body .card_body_left i{
+    padding: 17px 0;
+    color: #C7C9CE;
+    font-size: 16px;
+}
+/*=======================================our_project section ends here==================================*/
+
+/*==========================================team_member css starts here===========================================*/
+#team_member .header{
+    padding-top: 45px;
+}
+#team_member .header .header_info{
+    padding-top: 40px;
+}
+#team_member .header .header_info h6{
+    line-height: 25px;
+}
+#team_member .my_card{
+    padding-top: 43px;
+    padding-bottom: 27px;
+    border-radius: 10px;
+    background: #F5F5F5;
+    border: 0 solid transparent;
+}
+#team_member .my_card .card-img{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+
+}
+#team_member .my_card .card-img .my_card_image img{
+
+    border: 5px solid #ffffff;
+    border-radius: 50%;
+}
+#team_member .my_card .card-body h3{
+    text-align: center;
+    color: #6d6e71;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 23px;
+}
+#team_member .my_card .card-body p{
+    text-align: center;
+    color: #6d6e71;
+    font-weight: 300;
+    font-size: 17px;
+    padding-bottom: 40px;
+}
+#team_member .my_card .card-footer {
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    background: #ffffff;
+    border: 0px;
+
+    box-sizing: border-box;
+}
+#team_member .my_card .card-footer a i{
+    color: #CDCDCD;
+    padding: 20px 37px;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+/*==========================================team_member css ends here===========================================*/
+/*========================================== location css starts here==========================================*/
+#location{
+    padding-top: 100px;
+}
+#location iframe{
+    width: 100%;
+}
+
+#location .location_map{
+    position: relative;
+}
+
+#location .location_info{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 70px;
+    left: 50%;
+}
+#location .location_info i{
+    padding: 15px;
+    background: #FAFAFA;
+    margin: 6px;
+    border-radius: 5px;
+    color: #6D6E71;
+    font-size: 17px;
+    border: 1px solid #D5D5D5;
+}
+#location .location_info i:hover{
+    background: #1FA9E0;
+    color: #ffffff;
+}
+/*========================================== location css starts here==========================================*/
+
+/*======================================footer part css start here==========================================================*/
+#footer{
+    padding-top: 78px;
+    background: #2B2C2D;
+}
+#footer .social_icon{
+    padding-bottom: 100px;
+}
+#footer .social_icon ul{
+    float: left;
+}
+
+#footer .social_icon ul li{
+    float: left;
+    height: 63px;
+    width: 63px;
+    border-right: 1px solid #414344;
+    display: flex;
+    align-items: center;
+}
+#footer .social_icon a i{
+    padding: 0 20px;
+    color: #414344;
+    font-size: 17px;
+}
+#footer .newsletter{
+    padding: 10px;
+    background: #393B3C;
+    border-radius: 15px;
+}
+#footer .newsletter .newsletter_icon{
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+}
+#footer .newsletter .form_content{
+    padding: 10px;
+}
+#footer .newsletter form .my_button{
+    background: #494C4D;
+    padding: 15px 25px;
+    border-radius: 5px;
+    color: #6d6e71;
+    font-size: 14px;
+    font-width: 700;
+}
+
+#footer .newsletter .newsletter_icon{
+    color: #6B6F71;
+}
+#footer .newsletter  input {
+    padding: 0px;
+    border: transparent;
+    font-weight: 700;
+    background: transparent;
+    margin-top: 5px;
+}
+#footer .copyright{
+    color: #6d6e71;
+    font-size: 13px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+#footer .footer_menu ul{
+    float: right;
+}
+#footer .footer_menu ul li{
+    float: left;
+    list-style-type:circle;
+    padding-right: 7px;
+}
+#footer .footer_menu ul li a{
+    color: #6d6e71;
+    font-size: 13px;
+    font-weight: 300;
+}
+#footer .footer_menu ul li a span{
+    font-weight: 700;
+    padding-right: 7px;
+}
+/*======================================footer part css start here==========================================================*/
+
+.scroll_top .my_button{
+    background: #ffffff;
+    color: #EFEFEF;
+    font-size: 25px;
+    right: 70px;
+}

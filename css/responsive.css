@@ -1,0 +1,153 @@
+@media (min-width: 320px) and (max-width: 767px) {
+  .header{
+        margin-left: 20px;
+    }
+    .header_picture{
+
+        margin-right: 0px;
+    }
+    .header h1{
+        font-size: 30px;
+    }
+    .content{
+        margin-left: 10px;
+    }
+    #header_top .header_top_left ul{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 5px;
+    }
+    #header_top .social_icon ul{
+        float: left;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 0;
+        padding-left: 0;
+    }
+    #header_top .social_icon ul li{
+        margin-right: 10px;
+        margin-bottom: 15px;
+    }
+    #brand_section .contact_info ul{
+        float: left;
+    }
+    nav .navbar-toggler{
+        margin: 15px 5px;
+    }
+    nav ul li{
+        margin-left: 15px;
+        padding: 15px 0;
+    }
+    nav ul li:hover{
+        background: #EFEFEF;
+    }
+    nav ul li:hover a,
+    nav ul li a{
+        border-right: 0px;
+    }
+    nav ul li a:hover .arrow_up{
+        visibility: hidden;
+    }
+    nav .active_item .active_arrow_up{
+        visibility: hidden;
+    }
+    nav.form-inline{
+      display: flex;
+    }
+
+    #about .about_box{
+        padding-bottom: 35px;
+    }
+
+    #our_work .content h3{
+        font-size: 20px;
+    }
+
+    #our_projects .header_info h6{
+        text-align: left;
+    }
+    #our_projects .header_info br{
+        display: none;
+    }
+    #our_projects .header_info h1{
+        padding-top: 0;
+    }
+    #our_projects .option_button{
+        margin: 5px;
+    }
+    #our_projects .option_button .filter_button{
+        padding: 10px;
+    }
+    #our_projects .option_button.my_button_group{
+        display: flex;
+        margin-left: 10px;
+    }
+    #team_member .header .header_info{
+        padding-top: 0;
+        margin-right: 15px;
+    }
+    #team_member .header .header_info h6{
+        text-align: justify;
+    }
+    #team_member .my_card{
+        margin-bottom: 10px;
+    }
+    #team_member .team_row:last-child{
+        margin-bottom: 10px;
+    }
+    #location .location_info{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #footer .social_icon{
+        display: none;
+    }
+    #footer .newsletter{
+        padding: 0 15px;
+        margin-bottom: 30px;
+    }
+    #footer .footer_menu ul{
+        float: left;
+        padding-bottom: 30px;
+    }
+    #footer .copyright,
+    #footer .footer_menu ul li a{
+        font-size: 16px;
+    }
+    .scroll_top .my_button{
+        right: 30px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    nav .navbar-toggler{
+        margin: 15px 5px;
+    }
+    nav ul li{
+        margin-left: 15px;
+        padding: 15px 0;
+    }
+    nav ul li:hover{
+        background: #EFEFEF;
+    }
+    nav ul li:hover a,
+    nav ul li a{
+        border-right: 0px;
+    }
+    nav ul li a:hover .arrow_up{
+        visibility: hidden;
+    }
+    nav .active_item .active_arrow_up{
+        visibility: hidden;
+    }
+    nav.form-inline{
+        display: flex;
+    }
+    .middle_divider{
+        display: none;
+    }
+    #about .about_box img{
+        height: 30%;
+    }
+}
