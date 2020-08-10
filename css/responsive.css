@@ -51,10 +51,13 @@
     nav .active_item .active_arrow_up{
         visibility: hidden;
     }
-    nav.form-inline{
-      display: flex;
-    }
+    .menu_bar_search{
+        margin-left: 20px;
 
+    }
+    .menu_bar_search .form-group{
+        min-width: 300px;
+    }
     #about .about_box{
         padding-bottom: 35px;
     }
@@ -144,10 +147,19 @@
     nav.form-inline{
         display: flex;
     }
+    .menu_bar_search{
+        margin-left: 10px;
+    }
+    .menu_bar_search .form-group{
+        min-width: 400px;
+    }
     .middle_divider{
         display: none;
     }
     #about .about_box img{
         height: 30%;
+    }
+    .scroll_top .my_button{
+        right: 30px;
     }
 }
